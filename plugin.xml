@@ -74,7 +74,7 @@
         <param name="android-package" value="nl.xservices.plugins.Calendar"/>
       </feature>
     </config-file>
-    <config-file target="AndroidManifest.xml" parent="/manifest">
+    <config-file target="AndroidManifest.xml" parent=".">
       <uses-permission android:name="android.permission.READ_CALENDAR"/>
       <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
     </config-file>
